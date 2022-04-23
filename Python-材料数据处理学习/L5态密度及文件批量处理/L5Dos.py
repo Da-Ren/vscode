@@ -1,3 +1,5 @@
+import sys
+#file1 = open(sys.argv[1],'r')   #sys.argv 第一个参数是脚本的名字，第二个参数才是命名的参数
 file1 = open("new0.dat",'r')
 all_data = file1.read()   
 file1.seek(0)  #文件指针移到前面位置
